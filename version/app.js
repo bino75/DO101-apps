@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is the bino version of app second attempt.' + '\n';
+    response = 'This is the bino version of app second attempt. version 3.' + '\n';
 
     //send the response to the client
     res.send(response);
